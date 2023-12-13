@@ -1,0 +1,96 @@
+h1 h2 h3 h4 li ul p {
+    margin : 0;
+    padding : 0;
+}
+
+#mainHeading {
+    font-size: 40px;
+
+}
+
+#mainPara {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial;
+    color: #333;
+}
+
+
+header {
+    padding: 40px;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+
+main {
+    max-width: 800px;
+    padding: 20px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+main form {
+    width: 40%;
+}
+
+main article {
+    width: 40%;
+    
+    
+}
+
+h1,h2, h3, h4, p {
+    margin-bottom: 1em;
+}
+
+#title {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+input, textarea, #destination_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid #666;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+    background-color: #efefef;
+    margin-top: 10px;
+
+}
+
+#destination_form {
+    margin-top: 25px;
+}
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: green; /* Green */
+  color: white;
+}
